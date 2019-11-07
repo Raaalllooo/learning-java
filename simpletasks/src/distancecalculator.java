@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class distancecalculator {
      public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
-         double meters = sc.nextInt();
-         double hoursTaken = sc.nextInt();
-         double minutesTaken = sc.nextInt();
-         double secondsTaken = sc.nextInt();
+         double meters = sc.nextDouble();
+         double hoursTaken = sc.nextDouble();
+         double minutesTaken = sc.nextDouble();
+         double secondsTaken = sc.nextDouble();
          System.out.println ("Input your values in order: meters passed, hours, minutes and seconds taken divided by whitespace:");
          /*System.out.println (meters);
          System.out.println (hoursTaken);
